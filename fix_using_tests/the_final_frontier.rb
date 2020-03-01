@@ -14,7 +14,7 @@ def crew
 end
 
 def greet_crew (crew)
-  crew.collect {|crew_member| p "Hello #{crew_member}." } 
+  crew.collect {|crew_member| "Hello #{crew_member}." } 
   
 end
 
